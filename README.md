@@ -1,6 +1,6 @@
 Port of the IntelliJ Darkula scheme for [Sublime Text 2](http://www.sublimetext.com/2) or [TextMate](http://macromates.com/).
 
-![Screen shot](http://mattchanner.github.com/darkula.png)
+![Screen shot](https://github.com/mattchanner/darkula/blob/master/darkula.png)
 
 ##Install in Sublime Text 2
 
