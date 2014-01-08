@@ -1,4 +1,4 @@
-Port of the IntelliJ Darkula scheme for [Sublime Text 2](http://www.sublimetext.com/2) or [TextMate](http://macromates.com/).
+A dark scheme for [Sublime Text 2](http://www.sublimetext.com/2) or [TextMate](http://macromates.com/) inspired by the IntelliJ Darkula theme.
 
 ![Screen shot](https://github.com/mattchanner/darkula/blob/master/darkula.png)
 
