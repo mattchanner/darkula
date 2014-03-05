@@ -1,4 +1,4 @@
-A dark scheme for [Sublime Text 2](http://www.sublimetext.com/2) or [TextMate](http://macromates.com/) inspired by the IntelliJ Darkula theme.
+A dark scheme for [Sublime Text 2](http://www.sublimetext.com/2), [Sublime Text 3](http://www.sublimetext.com/3) or [TextMate](http://macromates.com/) inspired by the IntelliJ Darkula theme.
 
 ![Screen shot](https://raw.github.com/mattchanner/darkula/master/darkula.png)
 
