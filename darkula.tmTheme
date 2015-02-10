@@ -89,6 +89,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markup tag</string>
+			<key>scope</key>
+			<string>meta.tag, declaration.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#CC7832</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Todo</string>
 			<key>scope</key>
 			<string>markup.todo</string>
@@ -117,7 +130,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#629755</string>
+				<string>#6A8759</string>
 			</dict>
 		</dict>
 		<dict>
@@ -140,7 +153,20 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6dcc20</string>
+				<string>#CC7832</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String interpolation</string>
+			<key>scope</key>
+			<string>constant.character.escape, string source</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#CC7832</string>
 			</dict>
 		</dict>
 		<dict>
@@ -151,7 +177,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#9876AA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -162,7 +188,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A9B792</string>
+				<string>#9876AA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -178,13 +204,61 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Preprocessor directive</string>
+			<key>scope</key>
+			<string>keyword.control.import</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC7832</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup XML declaration</string>
+			<key>scope</key>
+			<string>meta.tag.preprocessor.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#CC7832</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup DOCTYPE</string>
+			<key>scope</key>
+			<string>meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#CC7832</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword, storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC7832</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
 			<string>storage</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6DCC23</string>
+				<string>#CC7832</string>
 			</dict>
 		</dict>
 		<dict>
@@ -234,7 +308,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A9B7C6</string>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -286,7 +360,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#6DCC23</string>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -299,7 +373,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#6DCC23</string>
+				<string>#A9B7C6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -312,7 +386,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#6DCC23</string>
+				<string>#A9B7C6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -349,7 +423,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#AE81FF</string>
+				<string>#9876AA</string>
 				<key>foreground</key>
 				<string>#F8F8F0</string>
 			</dict>
