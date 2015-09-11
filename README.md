@@ -13,3 +13,7 @@ If you find any bugs or have suggestions for improvement, feel free to create an
 
 ##License
 This color scheme and all included files are public domain. Use at own risk.
+
+##Version
+1.0.1 - Small tweaks to JavaScript colours based on IntelliJ theme
+1.0.0 - Initial version
