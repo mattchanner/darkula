@@ -77,7 +77,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#808080</string>
+				<string>#A9B7C6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -123,7 +123,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#808080</string>
+				<string>#666666</string>
 				<key>fontStyle</key>
 				<string> italic</string>
 			</dict>
@@ -136,7 +136,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6A8759</string>
+				<string>#759254</string>
 			</dict>
 		</dict>
 		<dict>
@@ -189,7 +189,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable, punctuation.definition.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -253,6 +253,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#CC7832</string>
+				<key>background</key>
+				<string>#00000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -263,7 +265,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A9B7C6</string>
+				<string>#CC7832</string>
 			</dict>
 		</dict>
 		<dict>
@@ -284,8 +286,6 @@
 			<string>entity.name.class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
 				<key>foreground</key>
 				<string>#A9B7C6</string>
 			</dict>
@@ -297,8 +297,6 @@
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic underline</string>
 				<key>foreground</key>
 				<string>#A9B7C6</string>
 			</dict>
@@ -307,13 +305,13 @@
 			<key>name</key>
 			<string>Function name</string>
 			<key>scope</key>
-			<string>entity.name.function</string>
+			<string>entity.name.function, meta.function-call.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A9B7C6</string>
+				<string>#ffb64e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -324,7 +322,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A9B7C6</string>
+				<string>#9876AA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -386,8 +384,6 @@
 			<string>support.type, support.class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>#A9B7C6</string>
 			</dict>
@@ -491,6 +487,63 @@
 			<dict>
 				<key>foreground</key>
 				<string>#B8FF9A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>object method</string>
+			<key>scope</key>
+			<string>meta.function-call.object.php, variable.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb64e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment block</string>
+			<key>scope</key>
+			<string>comment.block.documentation.phpdoc, punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#60A160</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operation key</string>
+			<key>scope</key>
+			<string>keyword.operator.key.php, keyword.operator.class.php, keyword.operator.logical.php, keyword.operator.assignment.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A9B7C6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment keyword</string>
+			<key>scope</key>
+			<string>keyword.other.phpdoc.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#60A160</string>
+				<key>fontStyle</key>
+				<string> italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment double slash</string>
+			<key>scope</key>
+			<string>comment.line</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#666666</string>
 			</dict>
 		</dict>
 	</array>
